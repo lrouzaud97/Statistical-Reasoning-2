@@ -1,2 +1,2 @@
-# Statistical-Thinking-2
+# Statistical-Reasoning-2
 Seaside Chat Feb 9
