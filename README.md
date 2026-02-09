@@ -32,4 +32,5 @@ The tests we will go through:
 ## Final Outcomes
 
 
-## Link to slides and other resources
+## Link To The Slides
+https://docs.google.com/presentation/d/1MVwxlDDZ5rKMWrV_2qyHLCkIHj9_Fo2ux_HBW0BGthc/edit?usp=sharing
