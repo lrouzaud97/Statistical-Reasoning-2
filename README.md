@@ -29,8 +29,80 @@ The tests we will go through:
 3. ANOVA tests
 4. Chi-squared tests
 
-## Final Outcomes
+## Linear regression tests
+Useful when modeling the relationship between response variable Y and predictor variable X.
+Allow us to test for statistical relationships, how changes in predictor variable can influence the response variable
 
+## Simple linear regression
+One continuous predictor variable and one continuous response variable (assumes observations are independent, residuals are normally distributed)
+Example: effect of sunlight exposure on plant growth
+
+## Multiple linear regression
+When to use: when you have two or more predictor variables for one response variable
+
+What it does: estimates the independent effect of each predictor variable on the response variable while holding the other predictor variable constant. This allows us to test significance of multiple predictor variables simultaneously.
+Example: effect of sunlight exposure and water availability on plant growth
+
+## Logistic regression
+When to use: When the response variable is categorical and binary (two possible outcomes), as opposed to continuous. Predictor variables can be continuous or categorical.
+
+What it does: models probability that an outcome falls into one of two categories.
+
+Assumptions: Response variable is binary. Observations are independent
+
+Example: effect of nursing frequency on wolf cub survival (survived vs. not)
+
+## Comparison tests: 
+These are useful when you’re looking for the difference in means between two or more groups. 
+
+## T-tests
+When to use: comparing the means of exactly two groups. You have a discrete, independent variable with two levels and one continuous dependent variable.
+(If you have three or more groups, consider a One-way ANOVA.)
+Example: alarm playback experiment. Independent variable: playback exposure (before and after). Dependent variable: stress hormone concentration 
+
+## Paired t-test:
+When to use: whenever the same units are measured under two conditions, or if observations are naturally linked/matched. Used in before & after, or matched-pair study designs.
+What it does: Compares the difference between the means of your two groups to determine whether that difference is statistically significant.
+Assumptions: 
+Differences between paired measurements are normally distributed
+Each linked pair of measurements is independent of all other pairs
+The dependent variable is continuous
+
+Example: Stress hormone levels in individual birds measured before and after exposure to an alarm playback treatment.
+
+## Independent t-test:
+When to use: when comparing the means of two independent groups (each observation belongs to only one group)
+What it does: Tests whether the difference between the means of two independent samples is statistically significant.
+Assumptions: Observations are independent between groups. Data within each group are approximately normally distributed.The dependent variable is continuous
+
+Example: Stress hormone levels in one bird species compared to levels in another bird species.
+
+
+## One-way ANOVA:
+When to use: If you have 3 or more groups. One discrete independent variable and one continuous dependent variable (if you have two discrete independent variables, consider a Two-way ANOVA).
+What it does: Compares the difference between the means of three or more groups
+Assumptions: The dependent variable values follow a normal distribution
+		The variance in each group is the same/similar
+		There are no confounding variables
+For example: Comparing the amount of growth in plants where each plant got one of three watering treatments.
+
+## Chi-Square:
+	Assumptions: The expected values in most (ideally all) cells are greater than five.
+Goodness of fit:
+When to use: If you have one categorical variable with more than two groups. Usually done with a frequency table.
+What it does: Compares the expected values to the observed values to determine statistical significance.	
+For example: Test if the frequency of pollinators visiting certain flower colors is expected. (we expect that they will visit all colors with equal frequency)
+
+## Test of independence:
+When to use: If you have two categorical variables. Make sure to arrange them into a contingency table. 
+What it does: Calculates an expected value based on (row total * column total) / grand total. Compares the expected values to the observed values to determine statistical significance
+For example: Test if the frequency of visits to different flower colors based on pollinator family is expected.
+
+
+
+
+## Final Outcomes
+With this exercise, we aim to ensure students become more familiarzed with different statistical tests and how to pick the most correct test for their data type.
 
 ## Link To The Slides
 https://docs.google.com/presentation/d/1MVwxlDDZ5rKMWrV_2qyHLCkIHj9_Fo2ux_HBW0BGthc/edit?usp=sharing
